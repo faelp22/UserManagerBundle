@@ -1,0 +1,46 @@
+{
+    "name": "faelp22/UserManagerBundle",
+    "type": "symfony-bundle",
+    "description": "Symfony UserManagerBundle",
+    "keywords": ["User management"],
+    "homepage": "https://github.com/faelp22/UserManagerBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isael Sousa Santos",
+            "email": "faelp22@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "symfony/form": "^2.7 || ^3.0",
+        "symfony/framework-bundle": "^2.7 || ^3.0",
+        "symfony/security-bundle": "^2.7 || ^3.0",
+        "symfony/twig-bundle": "^2.7 || ^3.0",
+        "twig/twig": "^1.28 || ^2.0",
+        "symfony/templating": "^2.7 || ^3.0",
+        "swiftmailer/swiftmailer": "^4.3 || ^5.0",
+        "friendsofsymfony/user-bundle": "1.3.*"
+    },
+    "require-dev": {
+        "doctrine/doctrine-bundle": "^1.3",
+        "symfony/console": "^2.7 || ^3.0",
+        "symfony/yaml": "^2.7 || ^3.0",
+        "symfony/validator": "^2.7 || ^3.0",
+        "symfony/phpunit-bridge": "^2.7 || ^3.0",
+        "phpunit/phpunit": "~4.8|~5.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "faelp22\\UserManagerBundle\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "config": {
+        "bin-dir": "bin",
+        "sort-packages": true
+    }
+}
